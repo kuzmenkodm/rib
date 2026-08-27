@@ -3,7 +3,6 @@ use std::path::PathBuf;
 
 pub use crate::tar_io::Owner;
 
-
 #[derive(Debug, Clone)]
 pub struct CopySpec {
     /// Source as written by the user. May be a glob

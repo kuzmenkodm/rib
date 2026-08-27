@@ -15,7 +15,6 @@ use oci_spec::image::{DescriptorBuilder, MediaType};
 use tokio_util::sync::CancellationToken;
 use walkdir::WalkDir;
 
-
 #[cfg(test)]
 pub fn build_copy_layer(spec: &CopySpec) -> Result<Layer> {
     build_copy_layer_with_options(spec, true, CancellationToken::new())
