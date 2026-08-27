@@ -1,0 +1,15 @@
+# Содержание
+
+- [Введение](README.md)
+- [Модель OCI-образа](introduction.md)
+- [Назначение и принципы проекта](motivation.md)
+- [Начало работы](usage.md)
+- [Архитектура](architecture.md)
+  - [Построение COPY-слоёв](architecture/copy-layers.md)
+  - [Конфигурация образа, manifest и `scratch`](architecture/assembly.md)
+  - [Registry и форматы архивов](architecture/outputs.md)
+  - [Интеграция с Cargo](architecture/cargo.md)
+- [Эксплуатация](operations.md)
+  - [CI/CD, Docker и Kubernetes](operations/ci-kubernetes.md)
+  - [Воспроизводимость и безопасность](operations/reproducibility-security.md)
+- [Ограничения](limitations.md)

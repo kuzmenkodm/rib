@@ -1,0 +1,15 @@
+# Summary
+
+- [Introduction](README.md)
+- [OCI image model](introduction.md)
+- [Purpose and design principles](motivation.md)
+- [Getting started](usage.md)
+- [Architecture](architecture.md)
+  - [Building COPY layers](architecture/copy-layers.md)
+  - [Image configuration, manifest, and `scratch`](architecture/assembly.md)
+  - [Registries and archive formats](architecture/outputs.md)
+  - [Cargo integration](architecture/cargo.md)
+- [Operations](operations.md)
+  - [CI/CD, Docker, and Kubernetes](operations/ci-kubernetes.md)
+  - [Reproducibility and security](operations/reproducibility-security.md)
+- [Limitations](limitations.md)

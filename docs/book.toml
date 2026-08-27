@@ -1,0 +1,14 @@
+[book]
+title = "rib: rootless-сборка OCI-образов"
+description = "Архитектура, использование и эксплуатация rootless-сборщика rib"
+authors = ["rib contributors"]
+language = "ru"
+src = "src"
+
+[build]
+build-dir = "../target/mdbook"
+create-missing = false
+
+[output.html]
+default-theme = "rust"
+preferred-dark-theme = "ayu"
